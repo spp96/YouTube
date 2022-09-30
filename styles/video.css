@@ -1,0 +1,256 @@
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+#nav {
+  width: 100%;
+  text-align: center;
+  margin: auto;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  z-index: 97;
+  top: 0;
+  background-color: white;
+
+  position: fixed;
+}
+.first {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+.first > img {
+  width: 80px;
+  margin-right: -20px;
+}
+h1:nth-child(3) {
+  color: red;
+}
+#query {
+  width: 100%;
+  padding: 10px 20px;
+  text-align: justify;
+}
+.second > span {
+  font-size: 20px;
+
+  padding: 5px;
+  border-radius: 100%;
+}
+.second {
+  width: 60%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  cursor: pointer;
+}
+.third {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  align-content: center;
+  padding-inline: 10px;
+  cursor: pointer;
+}
+.third img {
+  width: 30px;
+  margin-right: 10px;
+}
+.second button {
+  padding: 6px 20px;
+  margin-top: 5px;
+  margin-right: 10px;
+}
+.second button + span {
+  font-size: 24px;
+  background-color: whitesmoke;
+  padding: 8px;
+}
+.menulogo {
+  width: 30px;
+  margin-left: 15px;
+}
+.person {
+  margin-left: 10px;
+}
+@media all and (min-width:480px) and (max-width:720px){
+   
+
+  #nav {
+  width: 100%;
+  text-align: center;
+  margin: auto;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  z-index: 97;
+  top: 0;
+  background-color: white;
+
+  position: fixed;
+}
+.first {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+.first > img {
+  width: 80px;
+  margin-right: -20px;
+}
+h1:nth-child(3) {
+  color: red;
+}
+#query {
+  width: 100%;
+  padding: 10px 20px;
+  text-align: justify;
+}
+.second > span {
+  font-size: 20px;
+
+  padding: 5px;
+  border-radius: 100%;
+}
+.second {
+  width: 60%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  cursor: pointer;
+}
+.third {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  align-content: center;
+  padding-inline: 10px;
+  cursor: pointer;
+}
+.third img {
+  width: 30px;
+  margin-right: 10px;
+}
+.second button {
+  padding: 6px 20px;
+  margin-top: 5px;
+  margin-right: 10px;
+}
+.second button + span {
+  font-size: 24px;
+  background-color: whitesmoke;
+  padding: 8px;
+}
+.menulogo {
+  width: 30px;
+  margin-left: 15px;
+}
+.person {
+  margin-left: 10px;
+}
+#main_frame{
+    margin: auto;
+    margin-top: 10%;
+    text-align: center;
+}
+  }
+@media all and (min-width:320px) and (max-width:479px){
+   
+
+#nav {
+  width: 100%;
+  text-align: center;
+  margin: auto;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  z-index: 97;
+  top: 0;
+  background-color: white;
+
+  position: fixed;
+}
+.first {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+.first > img {
+  width: 80px;
+  margin-right: -20px;
+}
+h1:nth-child(3) {
+  color: red;
+}
+#query {
+  width: 100%;
+  padding: 10px 20px;
+  text-align: justify;
+}
+.second > span {
+  font-size: 20px;
+
+  padding: 5px;
+  border-radius: 100%;
+}
+.second {
+  width: 60%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  cursor: pointer;
+}
+.third {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  align-content: center;
+  padding-inline: 10px;
+  cursor: pointer;
+}
+.third img {
+  width: 30px;
+  margin-right: 10px;
+}
+.second button {
+  padding: 6px 20px;
+  margin-top: 5px;
+  margin-right: 10px;
+}
+.second button + span {
+  font-size: 24px;
+  background-color: whitesmoke;
+  padding: 8px;
+}
+.menulogo {
+  width: 30px;
+  margin-left: 15px;
+}
+.person {
+  margin-left: 10px;
+}
+#main_frame{
+    margin: auto;
+    margin-top: 10%;
+    text-align: center;
+}
+
+}
+
+#main_frame{
+    margin: auto;
+    margin-top: 10%;
+    text-align: center;
+}
